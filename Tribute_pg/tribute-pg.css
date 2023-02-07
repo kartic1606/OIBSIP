@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: crimson;
+}
+.img-container{
+    width:1200px;
+    background-image: url("https://wallpaperaccess.com/full/546690.jpg");
+}
