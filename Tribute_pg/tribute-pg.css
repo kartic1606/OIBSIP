@@ -1,0 +1,54 @@
+body{
+    margin: auto;
+    background-color: #333333;
+    color: white;
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+.card {
+    background-color: deeppink;
+    border-style: inset;
+    border-radius: 10px;
+    border: none;
+    min-height: max-content;
+    max-width: fit-content;
+    padding: 20px;
+    margin: 5px;
+}
+.card:hover {
+    box-shadow: 2px 2px 5px 2px rgb(116, 44, 83);
+    transition: 0.3s;
+}
+
+#top-frame {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+ }
+#quote{
+    text-align: left;
+}
+.works{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: 1 / 4;
+    gap: 10px 20px;
+}
+.work{
+    display: block;
+    background-color: rgb(63, 63, 63);
+    border-style: inset;
+    border-radius: 10px;
+    border: none;
+    max-width: min-content;
+    min-height: max-content;
+    padding: 20px;
+    margin: 5px;
+}
+.work img{
+    max-height: ;
+}
